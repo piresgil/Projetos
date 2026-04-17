@@ -3,15 +3,6 @@
 # -------------------------
 /Ableton!
 
-# Ignorar todos os projetos individuais (cada um tem o seu próprio Git)
-Arduino/Portofólio/*
-Java/WorkSpace/Portfolio/*
-
-# Mas NÃO ignorar o README principal
-!README.md
-
-
-
 # -------------------------
 # PlatformIO / ESP32
 # -------------------------
@@ -21,7 +12,7 @@ Java/WorkSpace/Portfolio/*
 build/
 cmake-build-*/
 CMakeFiles/
-CMakeCache.tx
+CMakeCache.txt
 *.elf
 *.bin
 *.hex
@@ -56,14 +47,6 @@ libraries/
 .idea/
 *.iml
 out/
-
-# Cache do IntelliJ
-# .idea/**/workspace.xml
-# .idea/**/tasks.xml
-# .idea/**/usage.statistics.xml
-# .idea/**/dictionaries
-# .idea/**/shelf/
-# .idea/**/libraries/
 
 # -------------------------
 # Sistema Operativo
