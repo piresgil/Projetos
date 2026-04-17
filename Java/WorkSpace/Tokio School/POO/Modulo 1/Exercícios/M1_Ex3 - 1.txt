@@ -1,0 +1,108 @@
+Atividade:
+
+Crie um pseudocódigo de uma aplicação de uma calculadora. 
+
+- Aqui pode utilizar qualquer editor de texto (pode ser Word ou, de preferência, o próprio Visual Studio Code) e criar um arquivo que contenha pseudocódigo.
+
+- Pode fazer de um modo mais simples, onde simplesmente o programa recebe dois números e pergunta a operação, ou pode desenvolver de modo a ter um ciclo em que a calculadora recebe 0-N (de zero a muitas) instruções até se clicar no botão de igual (=), ou no botão de OFF.
+
+- Esta abordagem é próxima à implementação de um real programa da linguagem da sua escolha.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+INICIAR CALCULADORA
+VISOR = ""
+
+ENQUANTO (CALCULADORA LIGADA)
+	SE (PRIMEIRO NÚMERO DIGITADO FOR VÁLIDO)
+        ADICIONA NÚMERO AO VISOR
+	FIM SE
+
+      
+	SE (OPERAÇÃO SELECIONADA FOR VÁLIDA)
+        ARMAZENA PRIMEIRO NÚMERO
+        ARMAZENA OPERAÇÃO
+        LIMPAR VISOR
+	FIM SE
+
+    
+	SE (SEGUNDO NÚMERO DIGITADO FOR VÁLIDO)
+        ADICIONA NÚMERO AO VISOR
+	FIM SE
+
+    
+	SE (IGUAL PRESSIONADO)
+        ARMAZENA SEGUNDO NÚMERO
+        CALCULA RESULTADO
+        EXIBIR RESULTADO NO VISOR
+	SE NÃO
+        ARMAZENA SEGUNDO NÚMERO
+		SE (OPERAÇÃO SELECIONADA FOR VÁLIDA)
+       	  ARMAZENA OPERAÇÃO
+	  	  CALCULA RESULTADO
+	     	  ARMAZENA NA MEMÓRIA
+		FIM SE
+	FIM SE
+    
+
+	SE (LIMPAR PRESSIONADO)
+        LIMPA VISOR E OPERAÇÕES
+	FIM SE
+    
+
+	SE (FUNÇÃO DE MEMÓRIA UTILIZADA)
+        EXECUTA FUNÇÃO DE MEMÓRIA
+	FIM SE
+
+FIM ENQUANTO
+
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+inicializar:
+  primeiro_numero = ""
+  segundo_numero = ""
+  operador = ""
+  estado = "esperando_primeiro_numero"
+  resultado = 0
+
+entrada_usuario(dado):
+  se dado é número:
+    se estado é "esperando_primeiro_numero" ou "digitando_primeiro_numero":
+      adicionar dado a primeiro_numero
+      estado = "digitando_primeiro_numero"
+    se estado é "esperando_segundo_numero" ou "digitando_segundo_numero":
+      adicionar dado a segundo_numero
+      estado = "digitando_segundo_numero"
+
+  se dado é ponto_decimal:
+    se estado é "digitando_primeiro_numero" e ponto_decimal não está em primeiro_numero:
+      adicionar ponto_decimal a primeiro_numero
+    se estado é "digitando_segundo_numero" e ponto_decimal não está em segundo_numero:
+      adicionar ponto_decimal a segundo_numero
+
+  se dado é operador:
+    se estado é "digitando_primeiro_numero":
+      operador = dado
+      estado = "esperando_segundo_numero"
+
+  se dado é igual:
+    se estado é "digitando_segundo_numero":
+      resultado = calcular(primeiro_numero, operador, segundo_numero)
+      exibir resultado
+      primeiro_numero = resultado
+      segundo_numero = ""
+      operador = ""
+      estado = "esperando_operador"
+
+calcular(num1, operador, num2):
+  se operador é "+":
+    retornar num1 + num2
+  se operador é "-":
+    retornar num1 - num2
+  se operador é "*":
+    retornar num1 * num2
+  se operador é "/":
+    retornar num1 / num2
+
+exibir(dado):
+  mostrar dado na tela
+--------------------------------------------------------------------------------------------------------------------------------------

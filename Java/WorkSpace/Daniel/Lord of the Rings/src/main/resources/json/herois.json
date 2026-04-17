@@ -1,0 +1,85 @@
+[ {
+  "id" : "d8e35d41-e8d1-4ddc-9bd8-8db44eb9346a",
+  "tipo" : "ELFO",
+  "nome" : "Legolas",
+  "vida" : 150,
+  "armadura" : 30,
+  "ataque" : 10
+}, {
+  "id" : "a3aa0756-044f-4006-8c5a-8bd0fde8bc80",
+  "tipo" : "ELFO",
+  "nome" : "Glorfindel",
+  "vida" : 160,
+  "armadura" : 55,
+  "ataque" : 10
+}, {
+  "id" : "7359c433-ed95-4481-9d44-7acdda5464d9",
+  "tipo" : "ELFO",
+  "nome" : "Haldir",
+  "vida" : 155,
+  "armadura" : 53,
+  "ataque" : 10
+}, {
+  "id" : "aefc4b63-1ed8-4aa3-ada1-109b66df7fc6",
+  "tipo" : "GUERREIRO",
+  "nome" : "Aragorn",
+  "vida" : 150,
+  "armadura" : 50,
+  "ataque" : 20
+}, {
+  "id" : "045f6882-76e9-4f5a-ae09-caa89243e1da",
+  "tipo" : "GUERREIRO",
+  "nome" : "Boromir",
+  "vida" : 100,
+  "armadura" : 60,
+  "ataque" : 20
+}, {
+  "id" : "34f8adb1-a176-4239-acbf-3d9a6dc12ec3",
+  "tipo" : "GUERREIRO",
+  "nome" : "Aragorn",
+  "vida" : 150,
+  "armadura" : 50,
+  "ataque" : 20
+}, {
+  "id" : "d501a289-9fe1-4490-8706-22d4a4f24bab",
+  "tipo" : "MAGO",
+  "nome" : "Gandalf",
+  "vida" : 200,
+  "armadura" : 30,
+  "ataque" : 30
+}, {
+  "id" : "f8b3856f-ea5f-4e05-8a5f-7045ae799916",
+  "tipo" : "MAGO",
+  "nome" : "Radagast",
+  "vida" : 170,
+  "armadura" : 58,
+  "ataque" : 30
+}, {
+  "id" : "198b6105-1797-47be-921e-d5f2b64d7676",
+  "tipo" : "MAGO",
+  "nome" : "Pallando",
+  "vida" : 160,
+  "armadura" : 60,
+  "ataque" : 30
+}, {
+  "id" : "e9e056cf-de38-4f9e-a96b-2a86f0abaf71",
+  "tipo" : "HOBBIT",
+  "nome" : "Frodo",
+  "vida" : 100,
+  "armadura" : 30,
+  "ataque" : 40
+}, {
+  "id" : "9999b28b-8f49-4c5e-8a7f-b158fb384720",
+  "tipo" : "HOBBIT",
+  "nome" : "Sam",
+  "vida" : 120,
+  "armadura" : 40,
+  "ataque" : 40
+}, {
+  "id" : "59890cb5-3939-4f6e-a21f-f115c2396447",
+  "tipo" : "HOBBIT",
+  "nome" : "Merry",
+  "vida" : 110,
+  "armadura" : 35,
+  "ataque" : 40
+} ]

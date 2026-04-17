@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="main.aplication.controller.AppController" spacing="20" alignment="CENTER">
+    <!-- Container para a imagem -->
+    <ImageView fx:id="imagemView" fitWidth="400" fitHeight="300"/>
+
+    <!-- Texto da cena -->
+    <Text fx:id="texto"/>
+
+    <!-- Botões de opções -->
+    <Button fx:id="opcao1" text="Opção 1"/>
+    <Button fx:id="opcao2" text="Opção 2"/>
+</VBox>

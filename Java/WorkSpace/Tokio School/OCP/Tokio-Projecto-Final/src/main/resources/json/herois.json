@@ -1,0 +1,57 @@
+[ {
+  "id" : "81163029-d908-444b-8249-38c84dbff007",
+  "tipo" : "ELFO",
+  "nome" : "wwww",
+  "vida" : 150,
+  "armadura" : 30,
+  "ataque" : 10
+}, {
+  "id" : "3e1758a3-f7d7-44f5-9b12-38f32ebec2c5",
+  "tipo" : "ELFO",
+  "nome" : "hhhhhh",
+  "vida" : 160,
+  "armadura" : 55,
+  "ataque" : 10
+}, {
+  "id" : "7c7b6a47-b83c-4438-8023-2c8d9b550b39",
+  "tipo" : "ELFO",
+  "nome" : "Haldir",
+  "vida" : 155,
+  "armadura" : 53,
+  "ataque" : 10
+}, {
+  "id" : "38831721-b360-4dc0-96d5-77d48176cf79",
+  "tipo" : "GUERREIRO",
+  "nome" : "Boromir",
+  "vida" : 100,
+  "armadura" : 60,
+  "ataque" : 20
+}, {
+  "id" : "d1584b2f-6d8f-4d22-92e9-6f200245f1d5",
+  "tipo" : "GUERREIRO",
+  "nome" : "Aragorn",
+  "vida" : 15,
+  "armadura" : 5,
+  "ataque" : 2
+}, {
+  "id" : "996dafac-c509-437b-af02-d44310ea2711",
+  "tipo" : "MAGO",
+  "nome" : "Gandalf",
+  "vida" : 200,
+  "armadura" : 30,
+  "ataque" : 30
+}, {
+  "id" : "bac54692-b850-4b9c-bb7f-3c4c72337b11",
+  "tipo" : "MAGO",
+  "nome" : "Radagast",
+  "vida" : 170,
+  "armadura" : 58,
+  "ataque" : 30
+}, {
+  "id" : "3ef65ca3-aaa6-4082-9713-7ecc3635840c",
+  "tipo" : "HOBBIT",
+  "nome" : "Sam",
+  "vida" : 120,
+  "armadura" : 40,
+  "ataque" : 40
+} ]

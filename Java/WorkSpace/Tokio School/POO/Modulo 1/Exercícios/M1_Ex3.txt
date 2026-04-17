@@ -1,0 +1,68 @@
+Atividade:
+
+Crie um pseudocódigo de uma aplicação de uma calculadora. 
+
+- Aqui pode utilizar qualquer editor de texto (pode ser Word ou, de preferência, o próprio Visual Studio Code) e criar um arquivo que contenha pseudocódigo.
+
+- Pode fazer de um modo mais simples, onde simplesmente o programa recebe dois números e pergunta a operação, ou pode desenvolver de modo a ter um ciclo em que a calculadora recebe 0-N (de zero a muitas) instruções até se clicar no botão de igual (=), ou no botão de OFF.
+
+- Esta abordagem é próxima à implementação de um real programa da linguagem da sua escolha.
+
+-------------------------------------------------------------------------------------------
+
+Iniciar Calculadora
+
+visor = ""
+
+ENQUANTO (Calculadora ligada)
+	SE (primeiro numero digitado for valido)
+        	Adiciona numero ao visor
+	Fim SE
+
+
+	SE (Ponto decimal digitado)
+		SE (visor não contem ponto)
+        		Adiciona ponto ao visor
+		Fim SE
+	Fim SE
+
+
+      	SE (Operação Selecionada for valida)
+		Armazena primeiro numero
+		Armazena Operação
+		Limpa visor
+	Fim SE
+
+    
+	SE (segundo numero digitado for valido)
+		Adiciona numero ao visor
+	Fim SE
+
+    
+	SE (Igual pressionado)
+		Armazena segundo numero
+		Calcula resultado
+		Exibe resultado no visor
+	SE Não
+		Armazena segundo numero
+			SE (Operação for valida)
+				Armazena operação
+				Calcula resultado
+				Armazena resultado na memoria
+			FIM SE
+	FIM SE
+    
+
+	SE (Limpar visor pressionado)
+		Limpar Visor e operações
+		Limpar memoria
+	FIM SE
+
+
+	SE (Função de memoria pressionada)
+		executa função de memoria
+	Fim SE
+
+Fim ENQUANTO
+
+-------------------------------------------------------------------------------------------

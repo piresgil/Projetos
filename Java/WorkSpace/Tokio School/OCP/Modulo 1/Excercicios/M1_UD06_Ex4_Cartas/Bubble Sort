@@ -1,0 +1,34 @@
+O bubble sort, ou ordenação por flutuação (literalmente "por bolha"),
+é um algoritmo de ordenação dos mais simples.
+A ideia é percorrer um conjunto de elementos diversas vezes,
+e a cada passagem fazer flutuar para o topo o maior elemento da sequência.
+Essa movimentação lembra a forma como as bolhas em um tanque de água procuram seu próprio nível,
+e disso vem o nome do algoritmo.
+
+No melhor caso, o algoritmo executa `n` operações relevantes,
+onde `n` representa o número de elementos do vector.
+
+No pior caso, são feitas `n2`(`n`ao quadrado) operações.
+A complexidade desse algoritmo é de ordem quadrática.
+Por isso, ele não é recomendado para programas que precisem de velocidade
+e operem com quantidade elevada de dados.
+
+Pseudocódigo
+Este algoritmo percorre a lista de itens ordenáveis do início ao fim,
+verificando a ordem dos elementos dois a dois, e trocando-os de lugar se necessário.
+Percorre-se a lista até que nenhum elemento tenha sido trocado de lugar na passagem anterior.
+
+procedure bubbleSort( A : lista de itens ordenaveis ) defined as:
+  do
+    trocado := false
+    for each i in 0 to length( A ) - 2 do:
+      // verificar se os elementos estão na ordem certa
+      if A[ i ] > A[ i + 1 ] then
+        // trocar elementos de lugar
+        trocar( A[ i ], A[ i + 1 ] )
+        trocado := true
+      end if
+    end for
+  // enquanto houver elementos sendo reordenados.
+  while trocado
+end procedure

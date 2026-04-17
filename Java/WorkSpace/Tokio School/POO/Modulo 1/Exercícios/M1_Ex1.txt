@@ -1,0 +1,51 @@
+Atividade:
+Descreva o processo de desenvolvimento de uma app móvel que funciona como calculadora.
+	- Uma calculadora envolve receber números e realizar operações.
+	Uma sugestão de resolução é perceber a que opções o utilizador tem acesso.
+	O utilizador pode apenas inserir números e operações.
+
+ 	- Como e em que ordem é que o programa deve receber estas instruções?
+	Primeiro os números? Primeiro as operações? Pode realizar várias operações?
+	O que significa eu clicar no ponto enquanto estou a digitar um número?
+
+--------------------------------------------------------------------------------------
+
+- Inicialização:
+	- Escolhido o design e linguagem de programação (neste caso seria o JAVA)
+	- Mostra um visor com botões para os números e operações.
+   	- O visor inicial vazio ou com um zero,
+	(usa um loop que mantém a calculadora em execução até que o user decida sair)
+
+- Entrada de Números:
+	- O user começa a digitar um número. Cada dígito é exibido no visor.
+   	- Ponto Decimal: Se o user clicar no ponto (.), ele é adicionado ao número atual, permitindo a entrada de números decimais.
+	- Armazena primeiro numero
+	regra: Apenas um ponto decimal é permitido por número.
+
+- Escolha da Operação:
+   	- Depois de digitar o primeiro número, o user escolhe uma operação (adição, subtração, multiplicação, divisão). 
+	A operação selecionada é armazenada e o visor é preparado para o próximo número, em caso de divisão faz uma verificação do divisor(que não pode ser zero).
+
+- Entrada do Segundo Número:
+   	- O user digita o segundo número, que é exibido no visor, novamente, o ponto decimal pode ser utilizado conforme a necessidade.
+	- Armazena segundo numero
+(regra: Apenas um ponto decimal é permitido por número.)
+
+- Resultado da Operação:
+   	- O user pressiona o botão de igual (=) para realizar a operação.
+	- Armazena o resultado.
+	- O resultado é exibido no visor, que pode ser usado diretamente em uma nova operação.
+	- Ao escolher outra operação, repete o processo de entrada do próximo número e executa a operação.
+
+
+Funcionalidades Adicionais
+
+- Mais operações:
+	- botões com outras operações, como por exemplo, positivo e negativo, raiz quadrada e percentagem podem ser adicionadas.
+
+- Limpar memoria:
+   	- Um botão de limpar a memoria, que redefine o visor e a operação atual.
+
+--------------------------------------------------------------------------------------
+
+	

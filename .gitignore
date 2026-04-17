@@ -1,0 +1,78 @@
+# -------------------------
+# Ableton (se for mesmo necessário)
+# -------------------------
+/Ableton!
+
+# Ignorar todos os projetos individuais (cada um tem o seu próprio Git)
+Arduino/Portofólio/*
+Java/WorkSpace/Portfolio/*
+
+# Mas NÃO ignorar o README principal
+!README.md
+
+
+
+# -------------------------
+# PlatformIO / ESP32
+# -------------------------
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.tx
+*.elf
+*.bin
+*.hex
+*.log
+*.tmp
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+
+# -------------------------
+# Arduino IDE
+# -------------------------
+*.ino.cpp
+*.ino.bin
+*.ino.elf
+*.ino.hex
+*.ino.with_bootloader.bin
+*.with_bootloader.bin
+*.with_bootloader.hex
+
+arduino_build*/
+arduino_cache*/
+
+# Bibliotecas instaladas localmente (Arduino IDE)
+libraries/
+
+# -------------------------
+# IntelliJ IDEA
+# -------------------------
+.idea/
+*.iml
+out/
+
+# Cache do IntelliJ
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+.idea/**/libraries/
+
+# -------------------------
+# Sistema Operativo
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Python virtual env
+# -------------------------
+venv/
+.env/

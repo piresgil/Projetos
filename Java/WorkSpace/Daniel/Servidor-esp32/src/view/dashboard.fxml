@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.DashboardController">
+
+    <!-- TÍTULO -->
+    <top>
+        <Label text="Painel ESP32"
+               style="-fx-font-size: 28px;"
+               BorderPane.alignment="CENTER"/>
+    </top>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <center>
+        <VBox spacing="25" alignment="CENTER">
+
+            <!-- BOTÕES -->
+            <HBox spacing="20" alignment="CENTER">
+                <Button text="Ligar Bomba"
+                        fx:id="btnLigar"
+                        style="-fx-background-color: #28a745; -fx-text-fill: white; -fx-font-size: 18px;"
+                        onAction="#ligarBomba"/>
+
+                <Button text="Desligar Bomba"
+                        fx:id="btnDesligar"
+                        style="-fx-background-color: #dc3545; -fx-text-fill: white; -fx-font-size: 18px;"
+                        onAction="#desligarBomba"/>
+            </HBox>
+
+            <!-- ESTADO DA BOMBA -->
+            <Label fx:id="lblEstado"
+                   text="Estado: ---"
+                   style="-fx-font-size: 22px;"/>
+
+            <!-- VALORES DO ESP32 (SEPARADOS) -->
+            <VBox spacing="10" alignment="CENTER_LEFT">
+
+                <Label fx:id="lblTemp"
+                       text="Temp: ---"
+                       style="-fx-font-size: 18px;"/>
+
+                <Label fx:id="lblHum"
+                       text="Hum: ---"
+                       style="-fx-font-size: 18px;"/>
+
+                <Label fx:id="lblSolo"
+                       text="Solo: ---"
+                       style="-fx-font-size: 18px;"/>
+
+                <Label fx:id="lbDistancia"
+                       text="Distancia: ---"
+                       style="-fx-font-size: 18px;"/>
+
+            </VBox>
+
+            <!-- JSON BRUTO -->
+            <TextArea fx:id="txtJson"
+                      prefWidth="400"
+                      prefHeight="200"
+                      wrapText="true"
+                      editable="false"
+                      style="-fx-control-inner-background: #222; -fx-text-fill: #0f0;"/>
+
+        </VBox>
+    </center>
+
+    <!-- MARGENS -->
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <!-- FUNDO -->
+    <style>
+        .root {
+        -fx-background-color: #111;
+        }
+    </style>
+
+</BorderPane>

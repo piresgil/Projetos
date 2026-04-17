@@ -1,0 +1,107 @@
+Atividade:
+
+Crie um diagrama de fluxo para uma app de calculadora.
+
+- Um fluxograma que consta em “aceitar num1 > num2 > calcular soma” pode ser tido como incompleto ou até incorreto num project brief. O utilizador deve ter a capacidade de perceber que o utilizador pode enganar-se, realizar 50 cálculos, limpar, guardar memória, etc.
+
+- Experimente fazer um fluxograma simples, depois tente reimplementá-lo com novas funcionalidades e teste tarefas (por exemplo, calcular uma percentagem) do início ao fim para perceber se o Fluxograma está completo.
+
+Em UX chamamos a este delineamento de possibilidades um User Flow, mas ele é extremamente útil na Gestão de Projetos.
+Recorra, por exemplo, ao FigJam para elaborar o seu Fluxograma.
+Deverá entregar um ficheiro em formato .pdf ou formato visual.
+
+
+Funcionalidades Esperadas em um Fluxograma de Calculadora Completo
+
+1. Entrada de Dados:
+   - Aceitar num1: O usuário insere o primeiro número.
+   - Aceitar num2: O usuário insere o segundo número.
+   
+2. Verificação de Erros:
+   - Validação de Entrada: Verificar se as entradas são números válidos.
+   - Mensagens de Erro: Exibir mensagens amigáveis se as entradas não forem válidas.
+   
+3. Operações:
+   - Calcular Soma: Realizar a soma de num1 e num2.
+   - Outras Operações: (Opcional) Incluir operações como subtração, multiplicação e divisão.
+   
+4. Interface do Usuário:
+   - Exibição de Resultados: Mostrar o resultado da operação ao usuário.
+   - Opções de Repetição: Permitir que o usuário realize novos cálculos sem reiniciar a aplicação.
+   
+5. Funcionalidades Adicionais:
+   - Memória: Habilitar a função de armazenar resultados na memória.
+   - Limpar Dados: Adicionar uma função para limpar as entradas e resultados.
+- Histórico de Cálculos: (Opcional) Guardar o histórico de cálculos realizados.
+
+
+
+Exemplificação de Fluxo
+
+Exemplo 1: Operação Simples
+
+1. Entrada do Primeiro Número:
+   - Usuário digita "12".
+   - Visor mostra "12".
+2. Seleção de Operação:
+   - Usuário escolhe "+".
+   - Visor mostra "12 +".
+3. Entrada do Segundo Número:
+   - Usuário digita "8".
+   - Visor mostra "12 + 8".
+4. Realização da Operação:
+   - Usuário pressiona "=".
+   - Visor mostra "20".
+
+Exemplo 2: Operação com Decimal
+
+1. Entrada do Primeiro Número:
+   - Usuário digita "5".
+   - Pressiona "." e depois "3".
+   - Visor mostra "5.3".
+2. Seleção de Operação:
+   - Usuário escolhe "x".
+   - Visor mostra "5.3 x".
+3. Entrada do Segundo Número:
+   - Usuário digita "2".
+   - Visor mostra "5.3 x 2".
+4. Realização da Operação:
+   - Usuário pressiona "=".
+   - Visor mostra "10.6".
+
+
+
+
+Exemplo de Fluxograma Completo
+
+1. Início
+2. Aceitar num1
+3. Validar num1
+   - Se inválido, exibir mensagem de erro e solicitar novamente.
+4. Aceitar num2
+5. Validar num2
+   - Se inválido, exibir mensagem de erro e solicitar novamente.
+6. Selecionar Operação
+   - Soma, subtração, multiplicação, divisão.
+7. Calcular Resultado
+8. Exibir Resultado
+9. Opções Adicionais:
+   - Novo Cálculo?**: Sim/Não
+     - Se sim, voltar ao passo 2.
+     - Se não, exibir opções de memória, limpar, etc.
+10. Salvar na Memória
+    - Perguntar se o usuário deseja salvar o resultado na memória.
+11. Limpar Dados
+    - Perguntar se o usuário deseja limpar as entradas e resultados.
+12. Encerrar
+
+
+
+Benefícios de um Fluxograma Detalhado
+
+- Usuário Consciente: O usuário tem uma visão clara de todas as funcionalidades e como usá-las.
+- Prevenção de Erros: Validações e mensagens de erro ajudam a evitar e corrigir entradas inválidas.
+- Flexibilidade: Oferece opções adicionais para usuários que desejam funcionalidades mais avançadas.
+- Manutenção e Escalabilidade: Facilita a manutenção e adição de novas funcionalidades no futuro.
+
+Implementar todas essas funcionalidades em um fluxograma e, subsequentemente, no código do projeto, garante uma experiência de usuário robusta e amigável.

@@ -1,0 +1,159 @@
+OCP TESTES COM RESPOSTAS
+https://enthuware.com/oca-ocp-java-certification-resources/267-ocp-java-11-sample-questions
+https://ocpjava.wordpress.com/2016/03/31/ocjp-samples-questions-exceptions-and-assertions/
+https://ocpjava.wordpress.com/2016/04/07/ocjp-samples-questions-java-streams/
+
+*************				UDEMY - 224
+*** TOKIO *** 
+*************
+**********************
+**** Já Entregues ****
+**********************
+*************
+**** POO ****
+*************
+
+M1_Ex1 - Descrição calculadora - apto
+M1_Ex2 - Fluxograma calculadora - apto
+M1_Ex3 - Pseudocódigo Calculadora - apto
+
+M2_Ex1 - Estudante - apto
+M2_Ex2 - Calcular Media - apto
+M2_Ex3 - Caminhos - apto
+M2_Ex4 - Numero Secreto - apto
+M2_Ex5 - Jogo Aventura - apto
+M2_Ex6 - Triângulos - apto
+M2_Ex7 - Tabuadex - apto
+M3_EX7-8
+?????? VER VIDEOS ????? CASO PRÁTICO
+M2_Ex8 - Conta - apto
+
+M3_Ex1 - Aluno - apto
+M3_Ex2 - Simulador de corrida - apto
+M3_Ex3 - Animais - apto (entregue ficheiro errado da 1ª vez)
+M3_Ex4 - Veículos - apto
+M3_Ex5 - Pagamentos - apto
+M3_Ex6 - Conta bancaria - apto
+M3_Ex7 - Super-heróis - apto
+
+*************
+**** OCP ****
+*************
+
+***M1***
+M1_UD-02_Ex1 - Peso na Lua  - (já documentado) - apto
+
+M1_UD-03_Ex1 - Contador Espaços  - (já documentado)  - apto
+M1_UD-03_Ex2 - Primos  -   - (já documentado)  - apto
+M1_UD-03_Ex3 - ASCII  - (já documentado)  - apto
+M1_UD-03_Ex4 - Polegadas em Metros - apto
+M1_UD-03_Ex5 - Ackermann  - (já documentado)  - entregue.
+M1_UD-03_Ex6 - Collatz  - (já documentado) - entregue. XXXXXXXXXXXXXXXXXX - Corrigido
+     * Independentemente de a função receber um 1, ou um Integer.MAX_VALUE,
+     * estarás sempre a ser criado um array de 300 posições sem necessidade.
+     * Será que 300 é um número muito grande? Ou será que dá para todos os casos?
+     * Não existe bem uma forma de determinamos qual será o tamanho correto do array.
+     * <p>
+     * Até à data, há uma condição que sabemos que é verdadeira,
+     * será que conseguiríamos pensar numa forma diferente de resolver o problema,
+     * e não termos de assumir o tamanho de um array?
+M1_UD-03_Ex7 - CandyCalculator  - (já documentado) - entregue.
+
+M1_UD-04_Ex1 - Sum - (já documentado)  - entregue.
+M1_UD-04_Ex2 - Ordenar - (já documentado) - entregue.
+	* "Mais uma vez, antes de submeter o trabalho, convém validar que está tudo em ordem. 
+	* É normal pedir ajuda e ver outros recursos, mas convém ter cuidado na entrega."
+M1_UD-04_Ex3 - Matrizes - (já documentado) - entregue.
+M1_UD-04_Ex4 - Polymers - (já documentado) - entregue.
+M1_UD-04_Ex5 - Palíndromos - (já documentado) - entregue.
+M1_UD-04_Ex6 - Contar Vogais - (já documentado) - entregue.
+
+M1_UD-05_Ex1 - Stack - (já documentado) - entregue.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+M1_UD-05_Ex2 - Rational number - (já documentado) - entregue.
+M1_UD-05_Ex3 - Retângulo - (já documentado) - entregue.
+M1_UD-05_Ex4 - Bag - (já documentado) - entregue.
+M1_UD-05_Ex5 - Complex Numbers - (já documentado) - entregue.
+
+M1_UD-06_Ex1 - Circle - (já documentado)) - entregue.
+M1_UD-06_Ex2 - Universidade - (já documentado)- entregue	XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+**********************
+**** Por Entregar ****
+**********************
+*************
+**** OCP ****
+*************
+
+M1_UD-06_Ex3 - Mercado
+M1_UD-06_Ex4 - Cartas
+M1_UD-06_Ex5 - Instrumentos
+
+M1_UD-07_Ex1 - CharSequenceTokio
+M1_UD-07_Ex2 - Figuras
+M1_UD-07_Ex3 - Cartas II
+
+M1_Ud-08_Ex1 - Stack II
+
+
+
+// tinha getters nos methods
+Rational number - quebra de encapsulamento, getters
+complex number - quebra de encapsulamento, getters
+
+// erro com o static double r
+circle - Isto significa que o r pertence à classe e não ao objeto. Portanto, se for criado 10 círculos diferentes, todos vão partilhar o mesmo raio. Para garantir que isto não acontecia, o r não poderia ser static.
+
+
+DUVIDAS
+
+stack - array começa vazio, ao retirar o elemento do array, retorno um outro array com novo tamanho?
+
+Biblioteca - Administrativo e informático extendem agr de PAS, criando também uma class enum para as categorias, ao instanciar Pessoal como administrativo ou outro no construtro da sub class já seta a enum de categoria
+
+Mercado - Funcionários e repositores preciso criar 2 classes diferentes? parecem ser iguais criando apenas uma class funcionário serveria para as 2.
+
+cartas - ordem alfabética do enunciado não esta alfabética, ordenação final segundo enunciado na class abstract, rever bublle sort, utilização do Integer.Compare
+
+Instrumentos - sub class d instrumento abstractas (sopro, percursao e cordas)
+
+CharSequenceTokio - posso usar o stringBuilder.reverse()
+
+******************
+**** Modulo 2 ****
+******************
+ate ao:
+ bag-iterator PRONTO A ENTREGAR
+
+
+******************************************************************************
+******************************************************************************
+******************************************************************************
+******************************************************************************
+******************************************************************************
+******************************************************************************
+******************************************************************************
+******************************************************************************
+******************************************************************************
+******************************************************************************
+******************************************************************************
+
+Carro - imagem com alterações
+
+Xadrez - alteração de pacotes, (mudança de tabuleiro para pkg componente, e ainda método 
+O tabuleiroTodasPecas() chama os metodos pecasBrancas e pecasPretas
+
+GenericSTack - correcção de pacotes, e prefixo da interface, penso ter entendido a utilização com os exemplos de List e ArrayList, LinkedList...alteração da chamada da class no main
+
+Bag genérica - função extract(), agr lança exceção se a coleção estiver vazia, assinalo ainda a  alteração na remoção do elemento:
+(T sorteado = items.get(indice);
+items.remove(items.get(indice));) 
+para:
+(T sorteado = items.get(indice);
+items.remove(indice);)
+
+Bag Iterator - compreendido a situação do do interator(), pois o método já é um forEach.
+
+Cidades - acabei por fazer em Map só porque não uso muitas vezes e era uma forma de treinar e ver se estaria correcto, duvidas sim nos casos de uso, ainda me confundo um pouco quando saber quando utiliziar uma coleção e a outra, por norma uso sempre List.
+
+******************************************************************************
+******************************************************************************

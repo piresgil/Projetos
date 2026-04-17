@@ -1,0 +1,25 @@
+Launching ETS Viewer manually from command line: You may also open a command prompt and cd to the directory where you have downloaded etsviewer.jar. i.e. c:\>cd downloads (or cd ~/Downloads on Mac).
+After this step, you should be on the command prompt in c:\downloads directory.
+
+Now execute the jar using the following command on the command prompt:
+c:\downloads\>java -jar   .\etsviewer.jar
+
+This should launch ETS Viewer software.
+(If you get any error message, you probably do not have JDK installed on your machine. Please see this.)
+
+(This option will not work on a Mac because Mac OS prevents unverified apps from executing directly. You will most likely get a message "Unable to access Jar file.)
+You will see the following screen.
+ETS Viewer
+Click on the Full or Trial version of the certification you want to use. ETS Viewer will download the appropriate question bank file from our server and open it.
+If you are behind a proxy or if your firewall is blocking ETS Viewer from downloading the file, you may download it yourself from our Downloads page.
+This page has Trial as well as Full versions of all the question banks. License is NOT required to download the full versions. So, pick the one you are interested in and save to any directory.
+Let's say you download JA+ V8 Trial Question Bank and save it to it to c:\downloads directory.
+After this step, you should have a question bank file with extension .ets in c:\downloads
+
+Click on the File -> Open menu of ETS Viewer. It will pop up a File browser, which you can use to browse to and select the Question Bank file that you downloaded.
+
+A License dialog as shown below will pop up. If you are using trial version, just enter your emailid and name and download the license. If you have purchased a license, you may either directly enter the license key or just enter your orderid and emailid and download the license.
+
+
+This is how it looks after successful installation:
+
